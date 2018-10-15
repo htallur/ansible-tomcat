@@ -1,5 +1,5 @@
 galaxy_info:
-  author: zaxos
+  author: 
   description: Ansible role to install and configure Apache Tomcat on CentOS/RHEL
 
   license: GPLv2
