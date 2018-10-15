@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/zaxos/tomcat-ansible-role.svg?branch=master)](https://travis-ci.org/zaxos/tomcat-ansible-role)
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-_zaxos.tomcat--ansible--role-blue.svg)](https://galaxy.ansible.com/zaxos/tomcat-ansible-role/)
 
 tomcat-ansible-role
 ===================
@@ -17,11 +15,6 @@ Requirements
 * CentOS/RHEL 7
 * SELinux disabled
 
-Installation
-------------
-```
-$ ansible-galaxy install zaxos.tomcat-ansible-role
-```
 
 Example Playbook
 ----------------
@@ -40,7 +33,7 @@ Example Playbook
         password: "us3rp@ssw0rd"
         roles: "tomcat"        
   roles:
-    - role: zaxos.tomcat-ansible-role
+    - role: tomcat
 ```
 
 Role Variables
